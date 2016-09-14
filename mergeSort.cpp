@@ -1,7 +1,7 @@
 #include <iostream>
 
 // The code is not complete. The code breaks when the 
-// input size is not a power of 2.
+// input size is not a power of 2. TEST
 void combineArray ( int *num, int start, int end)
 {
     int mid = (start + end) /2;
