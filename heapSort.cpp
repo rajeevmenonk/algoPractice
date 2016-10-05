@@ -1,22 +1,5 @@
 #include <iostream>
-
-void swap (int &a, int &b)
-{
-   int temp = a;
-   a = b;
-   b = temp;
-}
-
-
-void printArray (int *arr, int length)
-{
-    std::cout << "\n";
-    for (int i = 0; i < length; i++)
-    {
-        std::cout << arr[i] << " " ;
-    }
-    std::cout << "\n";
-}
+#include "utils.h"
 
 #define parent(child) ((child % 2 == 0 ? (child/2 -1) : (child/2)))
 #define childLeft(parentNode) ((parentNode * 2 + 1))
